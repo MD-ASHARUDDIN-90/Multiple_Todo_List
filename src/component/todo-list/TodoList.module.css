@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.input_Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #191b20;
+  border-radius: 6px;
+}
+
+.input_Container input {
+  border: none;
+  background-color: #191b20;
+  color: gray;
+  padding: 0.5rem;
+  border-radius: 6px 0px 0px 6px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  border: none;
+  background-color: #191b20;
+  color: white;
+  padding: 0.48rem;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.todo h5 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  background-color: #242731;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 1vh;
+}
+
+.subTodo {
+  background-color: #191b20;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 1vh;
+  font-weight: 600;
+  line-height: 4vh;
+  height: max-content;
+}
+
+.heading {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+}
+
+.description {
+  color: gray;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  word-wrap: break-word;
+  height: max-content;
+}
